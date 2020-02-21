@@ -1,0 +1,129 @@
+
+body{
+    /* reset */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header section*/
+
+section{
+    height: 880px;
+}
+
+.header-content{
+    background-image: url('images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+
+.half-width p{
+    font-size: 20px;
+    color: dimgray;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.half-width  h2{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.half-width h1{
+    font-size: 50px;
+    color: #EC4C7A;
+    margin-top:2%;
+}
+
+figure img{
+    width: 100%;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #ec5093, #ed4e8b, #ed4d83, #ed4c7b, #ed4b73);
+    padding:15px 50px;
+    border-radius: 10px;
+    color:white;
+    text-transform: uppercase;
+    font-size: 20px;
+    border:none;
+}
+.button:hover{
+    background-image: linear-gradient(to right, #737373, #616161, #504f4f, #403d3e, #302d2d);
+}
+
+.margin-p{
+    margin-bottom: 10%;
+}
+
+
+/* Main section */
+
+/* BIOGRAPHY */
+.biography{
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+
+}
+.center-vertically{
+    margin-top: 7%;
+}
+
+/* Latest work */
+
+.latest-work{
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+
+}
+
+
+.latest-work h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.latest-images img{
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+/* footer section */
+
+footer{
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.client-review h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
